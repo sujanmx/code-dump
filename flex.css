@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    border:1px solid black ;
+    height: 400px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: stretch;
+flex-shrink: ;
+    align-items: space-evenly;
+}
+
+.box{border: 2px solid rgb(11, 165, 11); 
+}
+

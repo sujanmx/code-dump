@@ -1,4 +1,13 @@
+
+       
+       ul{padding: 30px; border:1px solid color white ;background-color: black; text-align: end; position: fixed;top: 0;width: 92vw ;}
+        li{padding: 20px; color: blueviolet; display: inline; border: 1px solid white ;
+            box-sizing: border-box; text-align:end}
+        li.hover{color: rgb(220, 30, 195); cursor:pointer ;}
+
+         
 body{background-image: url(heading-image.jpg); border-collapse: collapse;}
+
 .center{display:block;margin-left: auto;margin-right: auto;}
 html{font-family: "Grey Qo", cursive;
     font-weight: 100PX;
@@ -12,6 +21,29 @@ html{font-family: "Grey Qo", cursive;
         p.five{width: 200px; background-color: rgb(121, 121, 125);border-style:double; border-width:thick ; }
         p.six{width: 200px; background-color: blue;border-style:mixed; border-width: thin; }
         body{background-image: url(https://images.unsplash.com/photo-1482062364825-616fd23b8fc1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)}
-        h1{padding: 5px; border: black ; border-style: double;text-shadow: 3px 3px 1px; text-align: center; line-height: 6;}
-        p.s,p.u{color: crimson;border-collapse: collapse;
-        } 
+        h1{padding: 5px; border: black ; border-style: double;text-shadow: 3px 3px 5px rgb(220, 60, 60); text-align: center; line-height: 6;}
+        p.s,p.u {color: crimson ; border-collapse: collapse;} 
+      /* unvisited link */
+      /* unvisited link */
+  address,a:link{
+    color: red;
+  }
+        /* visited link */
+ address, a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+ address ,a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+ address, a:active {
+    color: blue;
+  }
+  .container{border: 1px solid black;
+    height: 350px; ;width: 450px; margin-left: 100px ;margin-top:50px;
+    overflow:auto;
+
+  }

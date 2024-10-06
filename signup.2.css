@@ -1,0 +1,29 @@
+*{padding: 0; 
+ margin: 0;
+box-sizing: border-box;  }
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body{font-family: "Lato", sans-serif;}
+
+.outer-box{width: 100vw;height: 100vw;background-image:url(valo.jpg) ;}
+/* background:linear-gradient(to right bottom ,rgb(42, 134, 137),rgb(82, 100, 126));} */
+
+.inner-box{width: 400px;padding: 20px 40px ;position: relative;top: 50%;
+    
+    ; margin:0 auto;transform:translateY(-50%) ; 
+   
+ box-shadow:2px 2px 5px rgb(143, 16, 113);}
+
+ header{margin-bottom: 10px;}
+
+ .mainbody p{margin: 15px 0; }
+ .mainbody p label{ display: block; font-weight:bolder;color: brown;}
+
+ .mainbody p input{ border-radius:4px ;padding:5px 20px;
+    ;border:2px solid ;} 
+.mainbody p input[type="submit"]:hover{background-color: rgb(177, 55, 163);}
+
+.mainbody p input[type="submit"]{padding:5px 60px ;}
+
+    footer p{ text-align: center;}

@@ -12,12 +12,12 @@ caption{
 thead,tfoot{background-color: rgb(57, 30, 238);}
 th,
 td {
-  border: 1px solid rgb(160 160 160);
+  border: 1px solid rgb(187, 40, 40);
   padding: 8px 10px;
 }
 
 td:last-of-type {
-  text-align: center;
+  text-align: center;background-color: blueviolet;
 }
 
 tbody > tr:nth-of-type(even) {
@@ -25,7 +25,7 @@ tbody > tr:nth-of-type(even) {
 }
 
 tfoot th {
-  text-align: left;
+  text-align: center;
 }
 
 tfoot td {

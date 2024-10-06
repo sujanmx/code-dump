@@ -1,0 +1,46 @@
+ *{box-sizing: border-box;}
+
+.container{
+    height: 400px;
+    border: 2px solid blueviolet;
+    display:flex;
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap;
+    /* gap: 10px; */
+    /* row-gap:10px ; */
+    /* column-gap: 10px; */
+    /* short hand nicha jata likhbo */
+     flex-flow: wrap row-reverse;
+     /* justify-content: space-around; */
+     /* justify-content: space-between; */
+     justify-content: center;
+     align-items: center;
+     /* align-items: start; */
+     /* align-content: flex-start;
+      */
+      align-items:space-evenly;
+
+
+}
+
+.box{
+    border: 2px solid rgb(69, 197, 62);
+    /* margin: 10px ; */
+    width: 80px;
+}
+
+#box-1{
+    order:1;
+    flex-grow: 1;
+    flex-shrink: 2;
+    flex-basis: 200px;
+}
+
+#box-3{
+    order: 2;
+    /* flex-grow: 2; */
+    /* flex grow two korar jono 3 boro hocha 1 ar o du gun speed a*/
+  flex-shrink: 4;
+align-self: flex-start;}

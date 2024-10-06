@@ -1,0 +1,17 @@
+*{box-sizing: border-box;}
+.bigbox{
+    width: 400px;
+    height: 400px;
+    background-color: azure;
+}
+.box{ width:100px 
+    ;height:100px ;
+border:2px solid red;overflow:auto ;
+
+}
+    
+    .b1{background-color:red ; float:left;}
+    .b2{background-color: blue; float: right;
+    }
+    .b3{background-color: rgb(50, 194, 93);float:right }
+    .b4{background-color: blueviolet;float:right }

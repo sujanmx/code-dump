@@ -1,0 +1,31 @@
+*{padding: 0; 
+    margin: 0;
+box-sizing: border-box;}
+ 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+body{ font-family:"Lato" sans-serif }
+
+.outter-body{ width: 100vw;
+      height:100vw ;
+     background: linear-gradient(to left top,#FFF8E8,#F9E400);}
+
+     header{padding-bottom:2px ; font-weight: 900;}
+
+     .inner-body{ width: 400px;margin:0 auto ;
+        position: relative;top: 50%;transform: translateY(50%);
+     padding: 10px 20px ;box-shadow:2px 2px 5px ;}
+
+     .mainbody p label{display: block;padding: 5px;}
+     .mainbody p input{border: 2px solid black; padding:5px 20px  ;}
+
+     .mainbody p input[type="submit"]{background-color: rgb(111, 133, 61);margin: 10px;
+        padding: 5px 35px ;
+
+        
+     }
+
+     footer{padding: 10px;
+     text-align: center;}
+
+    
